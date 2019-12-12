@@ -22,6 +22,7 @@ install.packages("readr")
 install.packages("heatmaply")
 install.packages("sf")
 install.packages("rnaturalearth")
+install.packages("rgeos")
 install.packages("rnaturalearthdata")
 install.packages("tidyverse")
 
