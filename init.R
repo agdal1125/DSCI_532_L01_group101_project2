@@ -23,6 +23,7 @@ install.packages("heatmaply")
 install.packages("sf")
 install.packages("rnaturalearth")
 install.packages("rnaturalearthdata")
+install.packages("tidyverse")
 
 
 # installs magrittr, promises, R6
