@@ -21,10 +21,13 @@ install.packages("anytime")
 install.packages("readr")
 install.packages("heatmaply")
 install.packages("sf")
-install.packages("rnaturalearth")
 install.packages("rgeos")
-install.packages("rnaturalearthdata")
 install.packages("tidyverse")
+install.packages("rnaturalearthhires",
+                 repos = "http://packages.ropensci.org",
+                 type = "source")
+devtools::install_github("ropenscilabs/rnaturalearth")
+devtools::install_github("ropenscilabs/rnaturalearthdata")
 
 
 # installs magrittr, promises, R6
