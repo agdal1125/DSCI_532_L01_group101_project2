@@ -10,7 +10,13 @@ options(repos=r)
 
 # packages go here
 install.packages("remotes")
-install.packages("rnaturalearthdata")
+install.packages("rgeos")
+install.packages("devtools")
+install.packages("sf")
+devtools::install_github("ropensci/rnaturalearthdata")
+install.packages("rnaturalearthhires",
+                 repos = "http://packages.ropensci.org",
+                 type = "source")
 install.packages("rnaturalearth")
 
 # installs Rcpp, rlang, BH
@@ -22,9 +28,6 @@ install.packages("listenv")
 install.packages("anytime")
 install.packages("readr")
 install.packages("heatmaply")
-install.packages("sf")
-install.packages("rgeos")
-install.packages("devtools")
 install.packages("tidyverse")
 
 
