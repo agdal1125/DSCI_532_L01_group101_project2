@@ -10,6 +10,8 @@ options(repos=r)
 
 # packages go here
 install.packages("remotes")
+install.packages("rnaturalearthdata")
+install.packages("rnaturalearth")
 
 # installs Rcpp, rlang, BH
 install.packages("later")
@@ -24,11 +26,6 @@ install.packages("sf")
 install.packages("rgeos")
 install.packages("devtools")
 install.packages("tidyverse")
-install.packages("rnaturalearthhires",
-                 repos = "http://packages.ropensci.org",
-                 type = "source")
-devtools::install_github("ropenscilabs/rnaturalearth")
-devtools::install_github("ropenscilabs/rnaturalearthdata")
 
 
 # installs magrittr, promises, R6
@@ -53,6 +50,7 @@ install.packages("https://cloud.r-project.org/src/contrib/base64enc_0.1-3.tar.gz
 install.packages("https://cloud.r-project.org/src/contrib/codetools_0.2-16.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/globals_0.12.5.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/Archive/future/future_1.11.1.1.tar.gz", type="source", repos=NULL)
+install.packages("https://cran.r-project.org/src/contrib/rnaturalearth_0.1.0.tar.gz", type="source", repos=NULL)
 
 # fiery and friends
 install.packages("https://cloud.r-project.org/src/contrib/routr_0.4.0.tar.gz", type="source", repos=NULL)
