@@ -22,6 +22,7 @@ install.packages("readr")
 install.packages("heatmaply")
 install.packages("sf")
 install.packages("rgeos")
+install.packages("devtools")
 install.packages("tidyverse")
 install.packages("rnaturalearthhires",
                  repos = "http://packages.ropensci.org",
