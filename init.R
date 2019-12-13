@@ -29,7 +29,7 @@ install.packages("anytime")
 install.packages("readr")
 install.packages("heatmaply")
 install.packages("tidyverse")
-
+install.packages("rgdal", repos = "http://cran.us.r-project.org", type = "source")
 
 # installs magrittr, promises, R6
 remotes::install_version("httpuv", version = "1.4.5.1", repos = "http://cloud.r-project.org", upgrade="never")
